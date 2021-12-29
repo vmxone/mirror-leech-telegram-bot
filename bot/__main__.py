@@ -43,7 +43,7 @@ def stats(update, context):
     mem_t = get_readable_file_size(memory.total)
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
-    stats = f'Haloo, Saya Akan Memberikan Informasi Bot 𝓥𝓮𝓷𝓲א || MirrorBot 🦋
+    stats = f'Haloo, Saya Akan Memberikan Informasi Bot 𝓥𝓮𝓷𝓲א || MirrorBot 🦋\n\n'\
             f'<b>Bot Berjalan Selama ⏱:</b> {currentTime}\n\n'\
             f'<b>Total Penyimpanan 💾:</b> {total}\n'\
             f'<b>Digunakan 🌀:</b> {used} | <b>Bebas ♻️:</b> {free}\n\n'\
