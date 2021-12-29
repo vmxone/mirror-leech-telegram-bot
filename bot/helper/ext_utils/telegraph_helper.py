@@ -57,4 +57,4 @@ class TelegraphHelper:
 			return self.edit_page(path, title, content)
 
 
-telegraph=TelegraphHelper('Mirror-Leech-Telegram-Bot', 'https://github.com/anasty17/mirror-leech-telegram-bot')
+telegraph=TelegraphHelper('$.𝓥𝓮𝓷𝓲א || 𝓐20【ブニックス 】〄', 'https://github.com/vmxone/mirror-leech-telegram-bot')
