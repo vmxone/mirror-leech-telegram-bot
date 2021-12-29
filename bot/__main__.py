@@ -204,7 +204,7 @@ help_string = f'''
 
 def bot_help(update, context):
     button = button_build.ButtonMaker()
-    button.buildbutton("Commands Lainnya", f"https://telegra.ph/{help}")
+    button.buildbutton("Commands Lainnya 🍭", f"https://telegra.ph/{help}")
     reply_markup = InlineKeyboardMarkup(button.build_menu(1))
     sendMarkup(help_string, context.bot, update, reply_markup)
 
@@ -255,7 +255,7 @@ def main():
         os.remove(".restartmsg")
     elif OWNER_ID:
         try:
-            text = "<b>Aloo aku dimulai ulang oleh owner/jadwal restar, kangen akuu yaaa 😖💘!</b>"
+            text = "<b>Aloo aku dimulai ulang oleh owner/jadwal restart, kangen akuu yaaa 😖💘!</b>"
             bot.sendMessage(chat_id=OWNER_ID, text=text, parse_mode=ParseMode.HTML)
             if AUTHORIZED_CHATS:
                 for i in AUTHORIZED_CHATS:
