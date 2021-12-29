@@ -7,7 +7,7 @@ from telegram.ext import CommandHandler
 
 
 def speedtest(update, context):
-    speed = sendMessage("Menjalankan Test . . . ", context.bot, update)
+    speed = sendMessage("𝓥𝓮𝓷𝓲א || MirrorBot Sedang Menjalankan Test 🍭 . . . ", context.bot, update)
     test = Speedtest()
     test.get_best_server()
     test.download()
