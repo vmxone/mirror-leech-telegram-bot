@@ -255,7 +255,7 @@ def main():
         os.remove(".restartmsg")
     elif OWNER_ID:
         try:
-            text = "<b>Aloo aku dimulai ulang oleh owner/jadwal restart, kangen akuu yaaa 😖💘!</b>"
+            text = "<b>Bot Kembali Online!</b>"
             bot.sendMessage(chat_id=OWNER_ID, text=text, parse_mode=ParseMode.HTML)
             if AUTHORIZED_CHATS:
                 for i in AUTHORIZED_CHATS:
